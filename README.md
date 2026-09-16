@@ -1,13 +1,27 @@
-# Glassy Trophy
+# Laurel & Crest — Glassy Trophy Catalogue
 
-A light glassmorphism catalogue page for browsing and ordering trophies, medals and shields.
+A Next.js catalogue and ordering page for trophies, medals and shields, built with a light glassmorphism design.
 
-Built as a single self-contained HTML file (`index.html`), no build step required.
+## Stack
+- Next.js (App Router, TypeScript)
+- Tailwind CSS v4
+- Framer Motion for the tilt, hover and panel animations
 
 ## Features
 - Browse the catalogue with sorting by price and filtering by type (trophies, medals, shields)
+- Interactive glass cards that tilt toward the cursor
 - Add items to an order with quantity controls
-- Review and submit an order request from a slide-out panel
+- Review and submit an order request from a slide-out panel, with a confirmation step
 
-## Preview
-Open `index.html` directly in a browser, or enable GitHub Pages on this repo (Settings > Pages > Deploy from branch `main`, folder `/root`) to view it live.
+## Getting started
+
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:3000.
+
+## Deploy
+
+Import this repository at [vercel.com/new](https://vercel.com/new). No configuration is needed, Vercel detects Next.js automatically.
