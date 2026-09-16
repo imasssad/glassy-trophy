@@ -32,6 +32,9 @@ export const PRODUCTS: Product[] = [
   { id: "s6", name: "Guardian Shield Plaque", category: "shield", price: 39.0, material: "Acrylic, printed crest", blurb: "An affordable acrylic shield plaque, a clean pick for smaller ceremonies." },
 ];
 
+export type FilterValue = "all" | Category;
+export type SortValue = "featured" | "price-asc" | "price-desc";
+
 export function categoryLabel(c: Category): string {
   return c === "trophy" ? "Trophy" : c === "medal" ? "Medal" : "Shield";
 }

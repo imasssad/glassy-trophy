@@ -1,12 +1,12 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { PRODUCTS, formatPrice } from "@/lib/products";
+import { PRODUCTS, formatPrice, type FilterValue, type SortValue } from "@/lib/products";
 import { GradientDefs } from "./icons";
 import { BackgroundOrbs } from "./BackgroundOrbs";
 import { Topbar } from "./Topbar";
 import { Hero } from "./Hero";
-import { CatalogueControls, type FilterValue, type SortValue } from "./CatalogueControls";
+import { CatalogueControls } from "./CatalogueControls";
 import { ProductGrid } from "./ProductGrid";
 import { OrderPanel, type CartLine } from "./OrderPanel";
 import { OrderModal } from "./OrderModal";
